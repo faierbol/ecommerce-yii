@@ -1,0 +1,155 @@
+/***** Css for responsive fixes*****/
+.card-box
+{
+	padding:20px;
+}
+
+.no-hor-padding
+{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.break-word
+{
+	word-wrap: break-word;
+}
+
+@media(min-width:320px) and (max-width:330px)
+{
+	.card-box > .device-btn > .device-btn-andro
+	{
+		margin-top:10px;
+	}
+}
+
+@media(min-width:320px) and (max-width:990px)
+{
+	.footer
+	{
+		left:70px;
+	}
+}
+
+@media(min-width:320px) and (max-width:505px)
+{
+	.user-pwd-btn
+	{
+		width:100%;
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+	
+	.user-pwd-txtfield
+	{
+		width:100% ! important;
+	}
+}
+
+@media(min-width:320px) and (max-width:767px)
+{
+	.sidemenu-dd-submenu-width
+	{
+		width:232px;
+	}
+}
+
+.btn
+{
+	border:1px solid #e3e3e3;
+}
+
+@media(min-width:320px) and (max-width:359px)
+{
+	.currencypromotion .selectedpromotion select#selectedoption
+	{
+		width:100% ! important;
+	}
+}
+
+@media(min-width:320px) and (max-width:334px)
+{
+	.btn-generate-pwd
+	{
+		width:100%;
+		margin-top:10px;
+	}
+}
+
+@media(min-width:360px) and (max-width:519px)
+{
+	.btn-generate-pwd
+	{
+		margin-top:10px;
+	}
+}
+
+@media(min-width:450px) and (max-width:580px)
+{
+	#Sitesettings_apiPassword
+	{
+		width:50% ! important;
+	}
+}
+
+@media(min-width:320px) and (max-width:639px)
+{
+	textarea#Sitesettings_tracking_code
+	{
+		float:left;
+		width:100%;
+	}
+	
+	.footer-setting-upd-btn
+	{
+		margin-top:10px;
+	}
+}
+
+@media(min-width:320px) and (max-width:450px)
+{
+	.mob-select,.mob-select input
+	{
+		width:100%;
+	}
+}	
+
+.mob-select
+{
+	border:none;
+}
+
+@media(min-width:320px) and (max-width:767px)
+{
+	
+	#sidebar-menu ul li ul
+	{
+		width:232px ! important;
+	}
+	#wrapper.enlarged .left.side-menu #sidebar-menu ul > li:hover > a
+	{
+	  position: relative;
+	  width: 302px;
+	  background: #f4f8fb;
+	}
+}
+
+@media(min-width:320px) and (max-width:767px)
+{
+	.mobile-top-right-menu
+	{
+		width:140px;
+	}
+	.mobile-top-right-menu li.dropdown
+	{
+		float:right;
+	}
+	.mobile-top-right-menu li.dropdown a
+	{
+		padding:0 10px;
+	}
+}
+.button-column
+{
+	width: 20% !important;
+}
